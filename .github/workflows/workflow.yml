@@ -1,4 +1,4 @@
-name: Github pages deploy
+name: Github Pages Deploy
 
 on:
   pull_request:
