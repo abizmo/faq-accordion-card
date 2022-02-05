@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
 
-join:
+jobs:
   build:
     runs-on: ubuntu-latest
 
