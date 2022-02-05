@@ -1,5 +1,6 @@
 {
   "name": "faq-accordion-card",
+  "homepage": "https://abizmo.github.io/faq-accordion-card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
