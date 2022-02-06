@@ -3,15 +3,22 @@
 @tailwind utilities;
 
 html {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 body {
   margin: 0;
-  font-family: 'Kumbh Sans',
-    sans-serif;
+  background: linear-gradient(180deg, #AF67E9 33%, #6565E7 100%);
+  font-family: 'Kumbh Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 95%;
 }
 
 footer {
