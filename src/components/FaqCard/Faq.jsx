@@ -13,7 +13,7 @@ const Faq = ({
         <img src={`${process.env.PUBLIC_URL}/images/icon-arrow-down.svg`} alt="arrow-down" />
       </span>
     </p>
-    <p className={`${!show ? 'hidden' : null} mt-1u pr-3u text-grayishBlue`}>
+    <p className={`${!show ? 'hidden ' : ''}mt-1u pr-3u text-grayishBlue`}>
       {answer}
     </p>
   </div>
