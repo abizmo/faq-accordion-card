@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/faq-accordion-card/static/css/main.326fe37b.css",
-    "main.js": "/faq-accordion-card/static/js/main.bfeecf69.js",
+    "main.js": "/faq-accordion-card/static/js/main.299a3045.js",
     "index.html": "/faq-accordion-card/index.html",
     "main.326fe37b.css.map": "/faq-accordion-card/static/css/main.326fe37b.css.map",
-    "main.bfeecf69.js.map": "/faq-accordion-card/static/js/main.bfeecf69.js.map"
+    "main.299a3045.js.map": "/faq-accordion-card/static/js/main.299a3045.js.map"
   },
   "entrypoints": [
     "static/css/main.326fe37b.css",
-    "static/js/main.bfeecf69.js"
+    "static/js/main.299a3045.js"
   ]
 }
