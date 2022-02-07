@@ -5,14 +5,17 @@ const Faq = ({
   answer, question, onClick, show,
 }) => (
   <div className="border-b py-2u w-full">
-    <p
-      className="cursor-pointer flex justify-between items-center text-darkGrayishBlue hover:text-softRed text-q"
+    <button
+      className="cursor-pointer flex justify-between items-center text-darkGrayishBlue hover:text-softRed text-q w-full"
+      onClick={onClick}
+      type="button"
     >
-      <button className={show ? 'font-bold' : null} onClick={onClick} type="button">{question}</button>
+      <p className={show ? 'font-bold' : null}>{question}</p>
       <span className={show ? 'rotate-180' : null}>
+        {/* TODO: meter la flecha en el button */}
         <img src={`${process.env.PUBLIC_URL}/images/icon-arrow-down.svg`} alt="arrow-down" />
       </span>
-    </p>
+    </button>
     <p className={`${!show ? 'hidden ' : ''}mt-1u pr-3u text-grayishBlue`}>
       {answer}
     </p>
