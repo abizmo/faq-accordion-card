@@ -25,6 +25,8 @@ module.exports = {
         '5u': '40px',
         '6u': '48px',
         '16u': '128px',
+        desh: '565px',
+        desw: '900px',
         mobh: '565px',
         mobw: '327px',
       },

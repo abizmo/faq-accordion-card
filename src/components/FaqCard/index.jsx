@@ -9,8 +9,8 @@ const FaqCard = ({ faqs }) => {
     .map((e, i) => (index === i ? !showArray[i] : false)));
 
   return (
-    <div className="bg-white w-mobw h-mobh mx-auto pb-6u px-3u rounded shadow-2xl">
-      <div className="flex flex-col items-center pt-16u relative">
+    <div className="bg-white w-mobw xl:w-desw h-mobh mx-auto pb-6u px-3u rounded shadow-2xl flex flex-col xl:flex-row">
+      <div className="flex flex-col items-center h-16u w-full xl:w-1/2 relative">
         <img
           alt="woman"
           className="absolute -top-32 w-3/4 z-10"
@@ -22,8 +22,8 @@ const FaqCard = ({ faqs }) => {
           src={`${process.env.PUBLIC_URL}/images/bg-pattern-mobile.svg`}
         />
       </div>
-      <div>
-        <h1 className="text-h1 text-center font-bold mb-2u ">FAQ</h1>
+      <div className="flex-1 xl:pr-16 xl:pt-28">
+        <h1 className="text-h1 text-center xl:text-left font-bold mb-2u">FAQ</h1>
         {
       faqs.map(({ question, answer }, i) => (
         <Faq
