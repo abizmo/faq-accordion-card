@@ -10,7 +10,7 @@ const FaqCard = ({ faqs }) => {
 
   return (
     <div className="bg-white w-mobw h-mobh mx-auto pb-6u px-3u rounded shadow-2xl">
-      <div className="flex flex-col items-center mb-2u pt-16u relative">
+      <div className="flex flex-col items-center pt-16u relative">
         <img
           alt="woman"
           className="absolute -top-32 w-3/4 z-10"
@@ -21,9 +21,9 @@ const FaqCard = ({ faqs }) => {
           className="absolute top-1 w-3/4 z-0"
           src={`${process.env.PUBLIC_URL}/images/bg-pattern-mobile.svg`}
         />
-        <h1 className="text-h1 font-bold">FAQ</h1>
       </div>
       <div>
+        <h1 className="text-h1 text-center font-bold mb-2u ">FAQ</h1>
         {
       faqs.map(({ question, answer }, i) => (
         <Faq
