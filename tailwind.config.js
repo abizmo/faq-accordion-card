@@ -4,6 +4,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'pattern-mobile': "url('/public/images/bg-pattern-mobile.svg')",
+        'woman-mobile': "url('/public/images/illustration-woman-online-mobile.svg')",
+        'pattern-desktop': "url('/public/images/bg-pattern-desktop.svg')",
+        'woman-desktop': "url('/public/images/illustration-woman-online-desktop.svg')",
+      },
       borderRadius: {
         DEFAULT: '1.75rem',
       },
@@ -25,6 +31,7 @@ module.exports = {
         '5u': '40px',
         '6u': '48px',
         '16u': '128px',
+        '23u': '184px',
         desh: '565px',
         desw: '900px',
         mobh: '565px',
