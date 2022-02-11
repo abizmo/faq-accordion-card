@@ -10,9 +10,8 @@ const Faq = ({
       onClick={onClick}
       type="button"
     >
-      <p className={show ? 'font-bold' : null}>{question}</p>
+      <span className={show ? 'font-bold' : null}>{question}</span>
       <span className={show ? 'rotate-180' : null}>
-        {/* TODO: meter la flecha en el button */}
         <img src={`${process.env.PUBLIC_URL}/images/icon-arrow-down.svg`} alt="arrow-down" />
       </span>
     </button>
